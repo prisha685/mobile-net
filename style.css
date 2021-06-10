@@ -20,16 +20,38 @@ body {
     width: 310px;
     padding:10px;
     margin-bottom:0px;
-    box-shadow: 5px 5px 18px darkorchid;
+    box-shadow: 5px 5px 18px teal;
 }
-#camera {
+#camera,#result {
     border: 2px white;
     width: 310px;
     height: 300px;
     box-shadow: 5px 5px 18px teal;
 }
-.main_div {
+.main_div button{
     width: 310px;
     font-size: 16px;
     box-shadow: 5px 5px 18px palevioletred;
+    border: 1px solid;
+}
+.footer_div {
+    margin-bottom: 50px;
+}
+.footer_div h4 {
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 18px white;
+}
+.footer_div img {
+    width: 70px ;
+}
+.copyright_footer{
+    position: fixed;
+    color: violet;
+    bottom: 0;
+    width: 100%;
+    background-color:lightskyblue ;
+    text-align: center;
+    line-height:3;
 }
